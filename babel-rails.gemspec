@@ -21,8 +21,10 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency 'railties', '~> 5.0'
   spec.add_runtime_dependency 'sprockets', '>= 4.0.0.beta4'
   spec.add_runtime_dependency 'babel-transpiler', '~> 0.7', '>= 0.7.0'
+  spec.add_runtime_dependency 'sprockets4-commonjs', '~> 0.0', '>= 0.0.7'
 
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
