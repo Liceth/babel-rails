@@ -6,8 +6,8 @@ require 'babel/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "babel-rails"
   spec.version       = Babel::Rails::VERSION
-  spec.authors       = ["liceova22@gmail.com"]
-  spec.email         = ["liceova22@gmail.com"]
+  spec.authors       = ["Liceth Ovalles", "Santiago Pastorino"]
+  spec.email         = ["liceova22@gmail.com", "santiago@wyeworks.com"]
 
   spec.summary       = %q{ES2015+ adapter for the Rails asset pipeline.}
   spec.description   = %q{ES2015+ adapter for the Rails asset pipeline.}
