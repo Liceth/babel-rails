@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ES2015+ adapter for the Rails asset pipeline.}
   spec.description   = %q{ES2015+ adapter for the Rails asset pipeline.}
-  spec.homepage      = "https://github.com/Liceth/babel-rails."
+  spec.homepage      = "https://github.com/Liceth/babel-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
